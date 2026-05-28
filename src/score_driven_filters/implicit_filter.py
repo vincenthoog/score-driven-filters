@@ -7,7 +7,7 @@
 #   - 'inv_hessian' : inverse-Hessian-based filter with [delta]
 #
 # It is structurally parallel to explicit_filter.py, but uses an *implicit*
-# update step solved with Broyden's method.
+# update step solved with Broyden's method (numericall).
 
 import time
 import numpy as np
